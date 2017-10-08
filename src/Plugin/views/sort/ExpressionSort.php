@@ -32,7 +32,7 @@ class ExpressionSort extends SortPluginBase {
   public function buildOptionsForm(&$form, FormStateInterface $form_state) {
     parent::buildOptionsForm($form, $form_state);
     $form['expression'] = [
-      '#type' => 'textfield',
+      '#type' => 'textarea',
       '#title' => t('Expression'),
       '#default_value' => $this->options['expression'],
       '#description' => t('<b>This is an advanced sort handler.</b> You can use whatever is available on the SQL. If what you need is not on the query, you could add other sort handlers in the end that will make some others to be available. You should probably want to enable "Show the SQL query" on the <a href=":url">settings</a> page.', [':url' => Url::fromRoute('views_ui.settings_basic')->toString()]),
@@ -43,6 +43,13 @@ class ExpressionSort extends SortPluginBase {
    * {@inheritdoc}
    */
   public function usesGroupBy() {
+    return FALSE;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function canExpose() {
     return FALSE;
   }
 
