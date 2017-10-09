@@ -46,13 +46,6 @@ class ExpressionSort extends SortPluginBase {
     return FALSE;
   }
 
-  /**
-   * {@inheritdoc}
-   */
-  public function canExpose() {
-    return FALSE;
-  }
-
   public function query() {
     if (!empty($this->options['expression'])) {
       $alias = $this->realField . '_' . $this->position;
