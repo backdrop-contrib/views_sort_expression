@@ -1,0 +1,7 @@
+name = Views sort expression
+description = "Allows you to define an expression of existing fields as a sorting element."
+dependencies[] = views
+package = Views
+core = 7.x
+
+files[] = views/views_sort_expression_handler.inc

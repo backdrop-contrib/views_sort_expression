@@ -1,7 +1,0 @@
-name: Views sort expression
-type: module
-description: 'Allows you to define an expression of existing fields as a sorting element.'
-core: 8.x
-dependencies:
-  - views
-package: Views
