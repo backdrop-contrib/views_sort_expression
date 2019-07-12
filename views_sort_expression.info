@@ -1,4 +1,4 @@
-name = Views sort expression
+name = Views Sort Expression
 description = "Allows you to define an expression of existing fields as a sorting element."
 dependencies[] = views
 package = Views
