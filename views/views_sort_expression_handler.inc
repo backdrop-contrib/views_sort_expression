@@ -36,7 +36,7 @@ class views_sort_expression_handler extends views_handler_sort {
       '#type' => 'checkbox',
       '#title' => t('Expression has an aggregate function'),
       '#default_value' => $this->options['aggregate'],
-      '#description' => t('This allows you to use an <a href="https://www.w3schools.com/sql/sql_groupby.asp">aggregate function</a> on the expression, instead of relying on the views aggregation plugins which doesn\'t otherwise work nicely with this module.'),
+      '#description' => t('This allows you to use an <a href="https://www.w3schools.com/sql/sql_groupby.asp">aggregate function</a> on the expression, instead of relying on the views aggregation plugins which doesn\'t otherwise work nicely with this sort handler.'),
     );
   }
 
