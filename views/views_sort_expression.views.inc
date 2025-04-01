@@ -1,4 +1,9 @@
 <?php
+/**
+ * @file
+ *
+ * Add the handler to the list of sort handlers.
+ */
 
 /**
  * Alter the table and field information from hook_views_data().

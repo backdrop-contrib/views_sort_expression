@@ -1,12 +1,17 @@
 <?php
+/**
+ * @file
+ *
+ * Module file for views_sort_expression.
+ */
 
 /**
- * Implements of hook_views_api().
+ * Implements hook_views_api().
  */
 function views_sort_expression_views_api() {
   return array(
     'api' => 3,
-    'path' => drupal_get_path('module', 'views_sort_expression') .'/views',
+    'path' => backdrop_get_path('module', 'views_sort_expression') .'/views',
   );
 }
 
@@ -27,4 +32,13 @@ function views_sort_expression_views_post_build(&$view) {
       }
     }
   }
+}
+
+/**
+ * Implements hook_autoload_info().
+ */
+function views_sort_expression_autoload_info() {
+  return array(
+    'views_sort_expression_handler' => 'views/views_sort_expression_handler.inc',
+  );
 }

@@ -1,7 +1,13 @@
 name = Views Sort Expression
-description = "Allows you to define an expression of existing fields as a sorting element."
-dependencies[] = views
-package = Views
-core = 7.x
+description = Add a custom SQL based sort expression to your Backdrop CMS Views
+backdrop = 1.x
+type = module
 
-files[] = views/views_sort_expression_handler.inc
+dependencies[] = views
+
+maintainers[yorkshire-pudding] = Martin Price
+
+package = Views
+tags[] = Content
+tags[] = Query
+tags[] = Structure

@@ -1,10 +1,8 @@
 <?php
-
 /**
  * @file
- * Filter classes.
  *
- * These classes are always used together, so we keep them in the same file.
+ * The Views Sort Expression Handler definition.
  */
 
 /**
