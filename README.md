@@ -42,6 +42,9 @@ necessary.
 2. Search for 'Expression' or filter by 'Global'
 3. Select and add the sort criteria.
 
+Advanced documentation will be added here:
+https://docs.backdropcms.org/documentation/add-ons/views-sort-expression
+
 ## Issues
 <!--
 Link to the repo's issue queue.
