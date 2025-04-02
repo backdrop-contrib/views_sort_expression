@@ -42,14 +42,14 @@ necessary.
 2. Search for 'Expression' or filter by 'Global'
 3. Select and add the sort criteria.
 
-Advanced documentation will be added here:
+Advanced documentation will be added here:  
 https://docs.backdropcms.org/documentation/add-ons/views-sort-expression
 
 ## Issues
 <!--
 Link to the repo's issue queue.
 -->
-Bugs and Feature Requests should be reported in the Issue Queue:
+Bugs and Feature Requests should be reported in the Issue Queue:  
 https://github.com/backdrop-contrib/views_sort_expression/issues.
 
 ## Current Maintainers
@@ -70,7 +70,7 @@ sponsored the module's development.
 -->
 - Ported to Backdrop CMS by - [Martin Price](https://github.com/yorkshire-pudding) - [System Horizons Ltd](https://www.systemhorizons.co.uk).
 - Port and ongoing development sponsored by [System Horizons Ltd](https://www.systemhorizons.co.uk).
-- Originally written for Drupal by [hanoii](https://www.drupal.org/u/hanoii)
+- Originally written for Drupal by [Ariel Barreiro](https://github.com/hanoii)
 
 ## License
 <!--
